@@ -138,8 +138,6 @@ Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.
 Les utilisateurs ont un fond d'écran imposé par l'entreprise   
 Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._   
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/baa86b63-09cd-49ef-9c63-778e93cfa0b7)
-
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/6d2439c9-e9dc-4e16-8ad5-32e8e31b0c5b)
 
 

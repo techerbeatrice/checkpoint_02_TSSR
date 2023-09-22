@@ -85,14 +85,12 @@ _Explique ce que tu as fait sur les 2 machines._
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d0d21321-3757-49b8-b139-7cfb18dc0f12)
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d9781174-68e1-43d5-9c2d-a3fc50904b96)
 ____
 
 Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._    
 Q3 : _Tente de te connecter avec l'utilisateur jane.doe/Azerty123! sur Client1._    
 _Quel est la différence entre les deux utilisateurs ?_     
-  
-
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d9781174-68e1-43d5-9c2d-a3fc50904b96)
 
 **R : John Doe doit changer son mot de passe avant la première connexion** 
 
@@ -108,9 +106,12 @@ _Quel est la différence entre les deux utilisateurs ?_
 
 ___________
 
-Q4 : _Que dois-tu faire pour pouvoir te connecter avec le comtpe de John Doe sur le Client1 ?_   
+Q4 : _Que dois-tu faire pour pouvoir te connecter avec le compte de John Doe sur le Client1 ?_   
 _Explique et fais l'action._  
 
+**R : J'ai changé le mot de passe de John Doe**  
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1815dabe-706e-4aae-9982-31bdc5eea0e6)
 
 
 

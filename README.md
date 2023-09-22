@@ -58,7 +58,7 @@ ______________
 
 ____
 
-Q1 : _Sur la VM Client1 :_       
+Q1a : _Sur la VM Client1 :_       
 _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_   
 
 **R : Le ping ne fonctionne pas car d'une la VM Client n’est pas sur le même réseau que la VM Serveur et de deux le serveur DHCP n'est pas encore configuré pour définir une plage d'adresses ou une adresse statique réservée qui peuvent être allouées à des hôtes qui en font la demande.**   
@@ -71,10 +71,10 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/5810dd2c-7931-4147-9c89-71bf35020f30)
 
 
-_Change le paramétrage des machines pour que cela soit possible._     
+Q1b : _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R1 : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :   
+**R1 : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :**     
 **•	IP : 172.16.0.10 /24   
 •	Masque de sous réseau : 255.255.255.0**      
 
@@ -92,9 +92,20 @@ _Explique ce que tu as fait sur les 2 machines._
 
 ____
 
-Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._  
+Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._    
+Q3 : _Tente de te connecter avec l'utilisateur jane.doe/Azerty123! sur Client1._    
+_Quel est la différence entre les deux utilisateurs ?_     
 
+**R : J'ai ajouté ces 2 utilisateurs**         
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1727edee-1dd1-4bee-8156-37437cf83ac1)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/59b38725-1e2d-4275-bcb1-133a04b86dc2)
+
+___________
+
+Q4 : _Que dois-tu faire pour pouvoir te connecter avec le comtpe de John Doe sur le Client1 ?_   
+_Explique et fais l'action._  
 
 
 

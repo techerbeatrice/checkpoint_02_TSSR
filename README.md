@@ -113,5 +113,17 @@ _Explique et fais l'action._
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1815dabe-706e-4aae-9982-31bdc5eea0e6)
 
+___________
+
+Q5 : _Configure le serveur DHCP pour adresser entre 172.16.0.10 et 172.16.0.199_   
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/ec5f34c6-af79-49f3-ae3c-fd3741fd9ff9)
+
+Q6 : _Fait un enregistrement de type A pointant vers 172.16.0.254 nommé pfsense_   
+
+Q7 : _Fait un alias sur l'enregistrement de type A qui s'appelle firewall (172.16.0.254)_
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/a05734d5-f4b8-4399-a585-2fb64f43d489)
+
 
 

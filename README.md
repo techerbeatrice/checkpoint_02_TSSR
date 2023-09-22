@@ -58,7 +58,7 @@ ______________
 
 ____
 
-_Sur la VM Client1 :_       
+Q1 : _Sur la VM Client1 :_       
 _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_   
 
 **R : Le ping ne fonctionne pas car d'une la VM Client n’est pas sur le même réseau que la VM Serveur et de deux le serveur DHCP n'est pas encore configuré pour définir une plage d'adresses ou une adresse statique réservée qui peuvent être allouées à des hôtes qui en font la demande.**   
@@ -74,12 +74,28 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :   
-•	IP : 172.16.0.10 /24 
-•	Masque de sous réseau : 255.255.255.0     
-•	Passerelle : 172.16.0.254**  
+**R1 : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :   
+**•	IP : 172.16.0.10 /24   
+•	Masque de sous réseau : 255.255.255.0**      
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/bdbeb6b8-e8cf-4542-9814-61cd0f38691b)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/b9ffccb9-696a-4fec-baf7-b816edbd774d)
+
+**J'ai créé une plage d'adresses sur la VM serveur pour les clients qui en font la demande, ensuite de la VM client le ping adressé au VM serveur a fonctionné**  
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/684484bd-4156-492a-a49a-11b33e81ba86)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/961b7b34-8b4c-4e3b-adca-6fd14e6b11eb)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d0d21321-3757-49b8-b139-7cfb18dc0f12)
+
+____
+
+Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._  
+
+
+
 
 
 

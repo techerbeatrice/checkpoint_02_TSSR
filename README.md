@@ -74,19 +74,20 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 Q1b : _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R1b : J'ai activé le dhcp en attribution automatique sur la VM client**        
-
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f41bc0ef-89a4-40d8-8e36-3134e3027c81)
-
-**J'ai créé une plage d'adresses sur la VM serveur pour les clients qui en font la demande, ensuite de la VM client le ping adressé au VM serveur a fonctionné**  
+**J'ai créé une plage d'adresses sur la VM serveur pour les clients qui en font la demande**  
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/684484bd-4156-492a-a49a-11b33e81ba86)
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/961b7b34-8b4c-4e3b-adca-6fd14e6b11eb)
 
+**J'ai fait un ipconfig /release et un ipconfig /renew sur la VM client**
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/c1112355-a463-404d-b1a8-8f98353ccebb)
+
+**puis fait un ping vers la VM serveur**
+
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d0d21321-3757-49b8-b139-7cfb18dc0f12)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d9781174-68e1-43d5-9c2d-a3fc50904b96)
 ____
 
 Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._    

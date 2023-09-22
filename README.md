@@ -74,12 +74,12 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 en mode manuel et configurer le masque de sous réseau avec les données suivantes :   
-•	Configuration IP : 172.16.0.10 /24   
-•	Passerelle : 172.16.0.254   
-•	Masque de sous réseau : 255.255.255.0**  
+**R : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :   
+•	IP : 172.16.0.10 /24 
+•	Masque de sous réseau : 255.255.255.0     
+•	Passerelle : 172.16.0.254**  
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/c0226206-b527-422d-af98-b2894186ece2)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/bdbeb6b8-e8cf-4542-9814-61cd0f38691b)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/efa7e8f8-b59f-4535-abf2-febb1bd6c5a9)
+
 

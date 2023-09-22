@@ -56,7 +56,6 @@ ______________
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/92cb9af1-7827-4695-8a1a-05268403eb4c)
 
-
 ____
 
 Q1a : _Sur la VM Client1 :_       
@@ -69,7 +68,7 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/eaabf549-79ea-4d58-a11c-bb8cae65c633)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/5810dd2c-7931-4147-9c89-71bf35020f30)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/5289dc6d-12ff-4f9c-bbf3-a846d1b2ee4c)
 
 
 Q1b : _Change le paramétrage des machines pour que cela soit possible._     

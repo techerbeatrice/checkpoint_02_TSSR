@@ -83,7 +83,7 @@ _Explique ce que tu as fait sur les 2 machines._
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/c1112355-a463-404d-b1a8-8f98353ccebb)
 
-**puis fait un ping vers la VM serveur**
+**puis fait un ping vers la VM serveur qui cette fois a fonctionné**
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d0d21321-3757-49b8-b139-7cfb18dc0f12)
 

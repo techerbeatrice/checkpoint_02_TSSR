@@ -61,7 +61,7 @@ ____
 Q1a : _Sur la VM Client1 :_       
 _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_   
 
-**R : Le ping ne fonctionne pas car d'une la VM Client n’est pas sur le même réseau que la VM Serveur et de deux le serveur DHCP n'est pas encore configuré pour définir une plage d'adresses ou une adresse statique réservée qui peuvent être allouées à des hôtes qui en font la demande.**   
+**R : Le ping ne fonctionne pas car d'une la VM Client n’a pas sur le même masque sous réseau que la VM Serveur et de deux le serveur DHCP n'est pas encore configuré pour définir une plage d'adresses ou une adresse statique réservée qui peuvent être allouées à des hôtes qui en font la demande.**   
   
 **IP VM serveur en réseau interne : 172.16.0.250 /24**  
 **IP VM client en réseau interne : 169.254.213.238 /16** 

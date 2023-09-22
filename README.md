@@ -54,7 +54,6 @@ ______________
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/92cb9af1-7827-4695-8a1a-05268403eb4c)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/4b5c889e-3952-46bb-bb89-970e831dff32)
 
 ____
 
@@ -74,13 +73,9 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 Q1b : _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R1 : J'ai changé manuellement l'IP de la VM client, dans les paramètres Réseau et Internet --> dans l’onglet Ethernet --> Sélectionner IPV4 et configurer le masque de sous réseau :**     
-**•	IP : 172.16.0.10 /24   
-•	Masque de sous réseau : 255.255.255.0**      
+**R1 : J'ai activé le dhcp en attribution automatique sur la VM client**        
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/bdbeb6b8-e8cf-4542-9814-61cd0f38691b)
-
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/b9ffccb9-696a-4fec-baf7-b816edbd774d)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f41bc0ef-89a4-40d8-8e36-3134e3027c81)
 
 **J'ai créé une plage d'adresses sur la VM serveur pour les clients qui en font la demande, ensuite de la VM client le ping adressé au VM serveur a fonctionné**  
 
@@ -95,12 +90,21 @@ ____
 Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._    
 Q3 : _Tente de te connecter avec l'utilisateur jane.doe/Azerty123! sur Client1._    
 _Quel est la différence entre les deux utilisateurs ?_     
+  
 
-**R : J'ai ajouté ces 2 utilisateurs**         
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/d9781174-68e1-43d5-9c2d-a3fc50904b96)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1727edee-1dd1-4bee-8156-37437cf83ac1)
+**R : John Doe doit changer son mot de passe avant la première connexion** 
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/59b38725-1e2d-4275-bcb1-133a04b86dc2)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1727edee-1dd1-4bee-8156-37437cf83ac1)    
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/68f48441-e31d-4680-b873-ebf627170882)
+
+**R : Le compte de Jane Doe est désactivé**
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/88cbb0f8-a08b-4592-adbb-6a081b21b1e6)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/0041d28b-7977-4e0d-8a3a-c4d6fe467bc7)
 
 ___________
 

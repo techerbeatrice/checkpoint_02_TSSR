@@ -4,8 +4,18 @@
 
 # Exercice 2 : Réseaux et domaine
 
-Tu va devoir créer une deuxième VM Client1 avec les caractéristiques suivantes :   
+Tu va devoir créer une deuxième VM Client1 avec les caractéristiques suivantes :  
 
+
+Serveur DC :   
+OS : Windows Server 2019   
+RAM : 2 Go   
+Processeurs : 2   
+Compte d'administration : Administrateur/Azerty123!   
+Domaine : checkpoint.lan  
+Rôles installés : AD, DHCP, DNS  
+Configuration IP : 172.16.0.250 /24  
+  
 Client   
 OS : Windows 10   
 Disque : 50 Go (1 partition pour le système de 35 Go et 1 partition Data de 15 Go)    
@@ -38,6 +48,7 @@ Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement
 
 ______________
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/92cb9af1-7827-4695-8a1a-05268403eb4c)
 
 
 

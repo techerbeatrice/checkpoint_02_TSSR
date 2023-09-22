@@ -51,8 +51,7 @@ Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement
 
 ______________
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/7af02a1c-1500-4be7-9d02-7683d209635a)
-
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/ce9f1594-5554-4db9-ae60-98a934a8b897)
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/92cb9af1-7827-4695-8a1a-05268403eb4c)
 
@@ -66,7 +65,7 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 **IP VM serveur en réseau interne : 172.16.0.250 /24**  
 **IP VM client en réseau interne : 169.254.213.238 /16** 
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/eaabf549-79ea-4d58-a11c-bb8cae65c633)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/0b85e286-acf0-4159-8924-4b74a216abad)
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/5289dc6d-12ff-4f9c-bbf3-a846d1b2ee4c)
 

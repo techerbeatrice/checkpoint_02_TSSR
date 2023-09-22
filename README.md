@@ -74,7 +74,7 @@ _Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_
 Q1b : _Change le paramétrage des machines pour que cela soit possible._     
 _Explique ce que tu as fait sur les 2 machines._     
 
-**R1 : J'ai activé le dhcp en attribution automatique sur la VM client**        
+**R1b : J'ai activé le dhcp en attribution automatique sur la VM client**        
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f41bc0ef-89a4-40d8-8e36-3134e3027c81)
 
@@ -93,13 +93,13 @@ Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._
 Q3 : _Tente de te connecter avec l'utilisateur jane.doe/Azerty123! sur Client1._    
 _Quel est la différence entre les deux utilisateurs ?_     
 
-**Ra : John Doe doit changer son mot de passe avant la première connexion** 
+**R2 : John Doe doit changer son mot de passe avant la première connexion** 
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1727edee-1dd1-4bee-8156-37437cf83ac1)    
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/68f48441-e31d-4680-b873-ebf627170882)
 
-**Rb : Le compte de Jane Doe est désactivé**
+**R3 : Le compte de Jane Doe est désactivé**
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/88cbb0f8-a08b-4592-adbb-6a081b21b1e6)
 
@@ -110,7 +110,7 @@ ___________
 Q4 : _Que dois-tu faire pour pouvoir te connecter avec le compte de John Doe sur le Client1 ?_   
 _Explique et fais l'action._  
 
-**R : J'ai changé le mot de passe de John Doe**  
+**R4 : J'ai changé le mot de passe de John Doe**  
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1815dabe-706e-4aae-9982-31bdc5eea0e6)
 
@@ -118,7 +118,7 @@ ___________
 
 Q5 : _Configure le serveur DHCP pour adresser entre 172.16.0.10 et 172.16.0.199_  
 
-R : **Opération effectuée à la question 1**   
+**R5 : Opération effectuée à la question 1**   
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/ec5f34c6-af79-49f3-ae3c-fd3741fd9ff9)
 
@@ -132,10 +132,10 @@ Q7 : _Fait un alias sur l'enregistrement de type A qui s'appelle firewall (172.1
 
 ________
 
-Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.
-Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.
-Les utilisateurs ont un fond d'écran imposé par l'entreprise   
-Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._   
+Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.   
+Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.   
+Les utilisateurs ont un fond d'écran imposé par l'entreprise.     
+Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._      
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/6d2439c9-e9dc-4e16-8ad5-32e8e31b0c5b)
 

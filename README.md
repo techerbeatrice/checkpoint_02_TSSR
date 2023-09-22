@@ -2,6 +2,8 @@
 
 # Exercice 1 : Script Powershell
 
+R : **Je n'ai pas assez révisé le script powershell**  
+
 # Exercice 2 : Réseaux et domaine
 
 Tu travailles dans le service SI de la société SweetCakes.   
@@ -92,13 +94,13 @@ Q2 : _Tente de te connecter avec l'utilisateur john.doe/Azerty123! sur Client1._
 Q3 : _Tente de te connecter avec l'utilisateur jane.doe/Azerty123! sur Client1._    
 _Quel est la différence entre les deux utilisateurs ?_     
 
-**R : John Doe doit changer son mot de passe avant la première connexion** 
+**Ra : John Doe doit changer son mot de passe avant la première connexion** 
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1727edee-1dd1-4bee-8156-37437cf83ac1)    
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/68f48441-e31d-4680-b873-ebf627170882)
 
-**R : Le compte de Jane Doe est désactivé**
+**Rb : Le compte de Jane Doe est désactivé**
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/88cbb0f8-a08b-4592-adbb-6a081b21b1e6)
 
@@ -115,9 +117,13 @@ _Explique et fais l'action._
 
 ___________
 
-Q5 : _Configure le serveur DHCP pour adresser entre 172.16.0.10 et 172.16.0.199_   
+Q5 : _Configure le serveur DHCP pour adresser entre 172.16.0.10 et 172.16.0.199_  
+
+R : **Opération effectuée à la question 1**   
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/ec5f34c6-af79-49f3-ae3c-fd3741fd9ff9)
+
+______________
 
 Q6 : _Fait un enregistrement de type A pointant vers 172.16.0.254 nommé pfsense_   
 
@@ -125,5 +131,13 @@ Q7 : _Fait un alias sur l'enregistrement de type A qui s'appelle firewall (172.1
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/a05734d5-f4b8-4399-a585-2fb64f43d489)
 
+________
+
+Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.
+Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.
+Les utilisateurs ont un fond d'écran imposé par l'entreprise   
+Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._   
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/baa86b63-09cd-49ef-9c63-778e93cfa0b7)
 
 

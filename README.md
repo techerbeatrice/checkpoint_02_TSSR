@@ -4,7 +4,8 @@
 
 # Exercice 2 : Réseaux et domaine
 
-Tu va devoir créer une deuxième VM Client1 avec les caractéristiques suivantes :  
+Tu travailles dans le service SI de la société SweetCakes.   
+Tu dois reprendre en urgence le travail de l'un de tes collègues.   
 
 
 Serveur DC :   
@@ -48,8 +49,32 @@ Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement
 
 ______________
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/7af02a1c-1500-4be7-9d02-7683d209635a)
+
+
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/92cb9af1-7827-4695-8a1a-05268403eb4c)
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/4b5c889e-3952-46bb-bb89-970e831dff32)
+
+____
+
+_Sur la VM Client1 :_       
+_Entre le PC Client1 et le serveur DC, le ping ne fonctionne pas. Pourquoi ?_   
+
+**R : Le ping ne fonctionne pas car d'une la VM Client n’est pas sur le même réseau que la VM Serveur et de deux le serveur DHCP n'est pas encore configuré pour définir une plage d'adresses ou une adresse statique réservée qui peuvent être allouées à des hôtes qui en font la demande.**   
+  
+**IP VM serveur en réseau interne : 172.16.0.250 /24**  
+**IP VM client en réseau interne : 169.254.213.238 /16** 
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/eaabf549-79ea-4d58-a11c-bb8cae65c633)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/5810dd2c-7931-4147-9c89-71bf35020f30)
 
 
+___
+
+
+
+
+    
 

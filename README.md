@@ -9,7 +9,6 @@ R : **Je n'ai pas assez révisé le script powershell**
 Tu travailles dans le service SI de la société SweetCakes.   
 Tu dois reprendre en urgence le travail de l'un de tes collègues.   
 
-
 Serveur DC :   
 OS : Windows Server 2019   
 RAM : 2 Go   
@@ -132,10 +131,12 @@ Q7 : _Fait un alias sur l'enregistrement de type A qui s'appelle firewall (172.1
 
 ________
 
-Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.  # Effectué en dehors du timing 
-Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.      
-Les utilisateurs ont un fond d'écran imposé par l'entreprise.     
-Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._      
+Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.  # Effectué en dehors du timing    
+
+_________
+
+_Les utilisateurs n'ont pas accès à l'invite de commande et au powershell._     
+
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/6d2439c9-e9dc-4e16-8ad5-32e8e31b0c5b)
 
@@ -143,7 +144,15 @@ Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/aa05b643-7d21-4726-a387-e24f931a2551)
 
+___________
+
+_Les utilisateurs ont un fond d'écran imposé par l'entreprise._         
+
+
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f2e8308e-f8f9-46a0-9af7-26fa229ddfce)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/def81efd-8313-4967-94e9-c4dbe4871b04)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/49b1b410-dee6-4b82-9d7c-486103eb9fe1)
 
+_________
+
+_Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._ 

@@ -132,8 +132,8 @@ Q7 : _Fait un alias sur l'enregistrement de type A qui s'appelle firewall (172.1
 
 ________
 
-Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.   
-Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.   # Effectué en dehors du timing   
+Q8 : _Tu vas devoir créer des GPO qui s'appliquera aux utilisateurs.  # Effectué en dehors du timing 
+Les utilisateurs n'ont pas accès à l'invite de commande et au powershell.      
 Les utilisateurs ont un fond d'écran imposé par l'entreprise.     
 Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._      
 
@@ -143,5 +143,7 @@ Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/aa05b643-7d21-4726-a387-e24f931a2551)
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f2e8308e-f8f9-46a0-9af7-26fa229ddfce)
 
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/def81efd-8313-4967-94e9-c4dbe4871b04)
 

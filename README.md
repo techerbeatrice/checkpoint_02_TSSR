@@ -138,11 +138,11 @@ _________
 _Les utilisateurs n'ont pas accès à l'invite de commande et au powershell._     
 
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/6d2439c9-e9dc-4e16-8ad5-32e8e31b0c5b)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/836b2885-5863-4fd3-9778-39c7112bb27b)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/1c53e472-6ceb-40dc-93ab-4e5ff8dfc6a4)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/68badfba-80d6-4e39-8e9f-e8333c836eda)
 
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/aa05b643-7d21-4726-a387-e24f931a2551)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/0001be81-90ec-42b5-b989-df1f9222f743)
 
 ___________
 

@@ -148,8 +148,7 @@ ___________
 
 _Les utilisateurs ont un fond d'écran imposé par l'entreprise._         
 
-
-![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/f2e8308e-f8f9-46a0-9af7-26fa229ddfce)
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/2474ae30-a574-44fb-a883-170000fd11d7)
 
 ![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/49b1b410-dee6-4b82-9d7c-486103eb9fe1)
 

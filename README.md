@@ -155,3 +155,13 @@ _Les utilisateurs ont un fond d'écran imposé par l'entreprise._
 _________
 
 _Les utilisateurs du domaine peuvent se connecter sur le poste Client1 uniquement entre 9h et 17h._ 
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/fa412c14-bb02-4c99-ba7b-6d3667e63292)
+
+![image](https://github.com/techerbeatrice/checkpoint_02_TSSR/assets/138071140/be12d3a9-6de6-452f-b55e-086f90885fe0)
+
+
+
+
+
+

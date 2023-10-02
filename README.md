@@ -2,7 +2,81 @@
 
 # Exercice 1 : Script Powershell
 
-R : **Je n'ai pas assez révisé le script powershell**  
+# Import des modules nécessaires
+Import-Module ActiveDirectory
+
+# Fonction pour générer un mot de passe aléatoire de 12 caractères
+function Random-Password {
+    $length = 12
+    $validChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{}|;:'<>,.?/"
+    $password = ""
+    1..$length | ForEach-Object {
+        $password += $validChars[(Get-Random -Maximum $validChars.Length)]
+    }
+    return $password
+}
+
+# Fichier CSV contenant les nouveaux utilisateurs
+$File = "c:\scripts\users.csv"
+$FileCsv = Import-Csv -Path $File -Delimiter ";" -Header "prenom","nom","societe","fonction","service","description","mail","mobile","scriptPath","telephoneNumber" -Encoding UTF8
+
+# Nom de la société (modifiable)
+$Company = $CompanyName
+
+# Récupération des utilisateurs existants
+$ADUsers = Get-ADUser -Filter * -Properties SamAccountName
+
+# Parcours des utilisateurs à créer
+Foreach ($User in $FileCsv) {
+    $SamAccountName = "$($User.prenom).$($User.nom)"
+    $ResCheckADUser = $ADUsers | Where {$_.SamAccountName -eq $SamAccountName}
+
+    # Vérification si l'utilisateur existe déjà
+    If ($ResCheckADUser -eq $null) {
+        Write-Host "Compte $SamAccountName à Créer"
+
+        # Mot de passe aléatoire
+        $Password = Random-Password | ConvertTo-SecureString -AsPlainText -Force
+        $Email = $User.mail
+        $MobilePhone = $User.mobile
+        $Title = $User.fonction
+        $Department = $User.service
+        $Description = $User.description
+        $ScriptPath = $User.scriptPath
+        $UserPrincipalName = "$SamAccountName@Sweetcakes.net"
+        $Name = "$($User.prenom) $($User.nom)"
+        $OfficePhone = $User.telephoneNumber
+        $GivenName = $User.prenom
+        $Surname = $User.nom
+        $DisplayName = $SamAccountName
+        $Path = "OU=$($User.service),OU=Utilisateurs,DC=sweetcakes,DC=net"
+
+        # Création de l'utilisateur
+        New-ADUser `
+            -SamAccountName $SamAccountName `
+            -UserPrincipalName $UserPrincipalName `
+            -Name $Name `
+            -GivenName $GivenName `
+            -Surname $Surname `
+            -Enabled $True `
+            -DisplayName $DisplayName `
+            -Path $Path `
+            -Company $Company `
+            -OfficePhone $OfficePhone `
+            -MobilePhone $MobilePhone `
+            -Title $Title `
+            -Department $Department `
+            -AccountPassword $Password `
+            -ChangePasswordAtLogon $True `
+            -Description $Description `
+            -ScriptPath $ScriptPath
+
+        Write-Host "Le compte $Name a été créé`nLe mot de passe est: $([System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($Password)))" -ForegroundColor Green
+    }
+    Else {
+        Write-Host "Le compte $SamAccountName est déjà créé" -ForegroundColor Red
+    }
+}
 
 # Exercice 2 : Réseaux et domaine
 

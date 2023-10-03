@@ -1,6 +1,6 @@
 # Checkpoint 2 TSSR
 
-# Exercice 1 : Script Powershell
+# Exercice 1 : Script Powershell   # Effectué en dehors du timing
 
 # Import des modules nécessaires
 Import-Module ActiveDirectory
